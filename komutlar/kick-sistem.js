@@ -1,7 +1,7 @@
 const { MessageEmbed,Client,CommandInteraction,Permissions } = require("discord.js");
 const model = require("../models/kick")
 module.exports = {
-    name:"kivk-sistem",
+    name:"kick-sistem",
     description: 'Kick sistemini ayarlar',
     type:1,
     options:[

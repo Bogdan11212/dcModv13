@@ -36,7 +36,7 @@ module.exports = {
         {
            
             const user = interaction.options.getMember('user')
-            const reason = interaction.options.getMember('reason')
+            const reason = interaction.options.getString('reason')
 
             if(user.id == interaction.member.id) return interaction.reply({content:"Kendini Atamazsın",ephemeral:true})
             if(user.id == client.user.id) return interaction.reply({content:"Kendimi Atamam",ephemeral:true})
